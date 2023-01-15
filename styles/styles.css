@@ -1,7 +1,7 @@
 /* header start */
 
 .section-one {
-    background-color: bisque;
+    background-color:none bisque;
 }
 
 .container {
@@ -265,14 +265,14 @@
     font-weight: 600;
     font-size: 45px;
     color: #424242;
-    padding: 0%;
+    
 }
 
 .award p {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
-    padding: 0%;
+    
 }
 
 
@@ -446,4 +446,103 @@
 }
 .input h2{
     color: aquamarine;
+}
+
+
+@media only screen and (max-width:668px) {
+    
+.section-cont{
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 0px;
+}
+.img-sec{
+    grid-template-columns:repeat(1, 1fr) ;
+    margin-left: 0px;
+}
+.banner{
+    width: 90%;
+    margin-left: 0px;
+}
+.section-one{
+    width: 90%;
+}
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-buttons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.header-title h1{
+    text-align: center;
+}
+
+.main-div{
+    flex-direction: column;
+}
+.content-image{
+    width: 90%;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.skill-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact{
+    align-items: center;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.spon{
+    padding: 10px;
+    width: 80%;
+}
+.footer{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    text-align: center;
+}
+.copyright h3{
+   
+    margin-bottom: 80px;
+    font-size: 13px;
+    color: black;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom{
+    font-size: 15px;
+    
+}
 }
